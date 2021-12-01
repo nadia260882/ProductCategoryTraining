@@ -34,7 +34,7 @@ class LoginController extends Controller
 		}
 		else
 		{
-			return back()->with('error', 'Wrong Login Details');
+			return back()->with('error');
 		}
     }
 
